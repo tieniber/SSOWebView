@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.ssowebview.SsoWebView" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Native"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Sso Web View</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <property key="url" type="attribute">
+            <caption>Url</caption>
+            <category>General</category>
+            <description>The key of the active item</description>
+            <attributeTypes>
+                <attributeType name="String"/>
+            </attributeTypes>
+        </property>
+    </properties>
+</widget>
